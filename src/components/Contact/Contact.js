@@ -6,7 +6,7 @@ export default function Contact() {
   const handleCopy = (object) =>{
     if(object==1){
       console.log("copying")
-      navigator.clipboard.writeText("lionel.feter@wp.pl")
+      navigator.clipboard.writeText("mail")
     }
   }
 
