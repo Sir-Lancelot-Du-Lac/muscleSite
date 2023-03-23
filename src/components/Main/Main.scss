@@ -1,6 +1,10 @@
     body{
         background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,83,123,1) 54%, rgba(0,212,255,1) 100%);
+        background-image: url(../../imagesAndFonts/background.jpg);
+        background-position: top;
+        background-attachment: fixed;
+        background-size: cover;
+        //background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,83,123,1) 54%, rgba(0,212,255,1) 100%);
     }
 
     .blurBc{
@@ -49,14 +53,13 @@
             background-color: rgb(0, 180, 230);
             transition: 1000ms;
       }
-        .TextContainer{
-        margin-top: 30px;
+      .TextContainer{
         margin-bottom: 130px;
       }
       #footer{
         position:static;
-        margin-top: -150px; /* negative value of footer height */
-        height: 150px;
+        margin-top: -75px; /* negative value of footer height */
+        height: 75px;
         bottom: 0;
         clear:both; 
         background-color: #ffffff;

@@ -28,7 +28,7 @@ export default function Main() {
         <div className={'${stylescss.TextContainer} TextContainer'}>
           <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/NavMus" element={<Muscle/>}/>
+            <Route path="/NavMus/*" element={<Muscle/>}/>
             <Route path="/NavExa" element={<Exercises/>}/>
             <Route path="/NavYou" element={<OwnTrainingPlan/>}/>
             <Route path="/NavCon" element={<Contact/>}/>

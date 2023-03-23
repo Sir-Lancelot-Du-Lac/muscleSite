@@ -3,7 +3,10 @@
     align-content: center;
     justify-content: center;
     width: 100%;
-    min-height: 75dvh;
+    min-height: 100%;
+}
+.MuscleText{
+    padding-bottom: 30px;
 }
 .iconSize{
     font-size: 50px;
@@ -17,6 +20,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .MusclesNav{
     text-decoration: none;
@@ -32,18 +36,49 @@
     color: rgb(0, 0, 0);
 }
 .ContainerMain{
-    width: 80vw;
-    background-color: white;
-    border-radius: 20px;
-    border: 2px black solid;
-    margin: 25px;
-    margin-top: 35px;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0);    
     margin-bottom: 70px;
     display: flex;
     align-content: center;
     flex-direction: column;
 }
-
-.TextCont{
-    margin: 0 7% 0 7%;
+.ParagraphF{
+background-color: rgb(255, 255, 255);
+color: black;
+width: 100%;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.ParagraphS{
+background-color: rgba(0, 0, 0, 0.313);
+color: white;
+width: 100%;
+padding-top: 25px;
+padding-bottom: 25px;
+backdrop-filter: blur(2px);
+padding-top: 75px;
+padding-bottom: 75px;
+}
+h1{
+    background-color: white;
+    padding: 0;
+    padding-top: 50px;
+    margin: 0;
+    font-family: Bebas;
+    font-size: 350%;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    font-family: Bebas;
+    font-size: 200%;
+}
+p{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+@font-face {
+    font-family: Bebas;
+    src: url(../imagesAndFonts/BebasNeue-Regular.ttf);
 }
