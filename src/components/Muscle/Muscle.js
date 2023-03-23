@@ -17,9 +17,11 @@ export default function Muscle() {
     <div>
       <div className={'${stylescss.bodyClass} bodyClass'}>
         <div className={'${stylescss.ContainerMain} ContainerMain'}>
-        <h1>Training your muscles</h1>
-          <div className={'${stylescss.ParagraphF} ParagraphF'}>
+          <div className={'${stylescss.ListOfMuscles} ListOfMuscles'}>
+            <h1>Training your muscles</h1>
             <MuscleLinks/>
+          </div>
+          <div className={'${stylescss.ParagraphF} ParagraphF'}>
           </div>
               <Routes>
                 <Route path="/" element={<MainMusc/>}/>
